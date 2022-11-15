@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <windows.h>
 #include <conio.h>
 #include <string>
 
@@ -20,7 +19,6 @@ int main()
     const int radius = 8;
     const char empty = ' ';
     const char full = '#';
-    system("color A");
     int circle_position[] = {30,15};
     //cout << circle_position[0]<< ' '<< circle_position[1] << endl;
     while (true) {
